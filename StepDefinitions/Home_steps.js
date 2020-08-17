@@ -175,7 +175,7 @@ this.Given("Open website", function (callback) {
     
     //clciking on edit icon
     element.all(by.tagName('tr')).get(3).element(by.id('edit')).click();
-    browser.sleep(4000);
+    browser.sleep(2000);
  
 
    callback();
